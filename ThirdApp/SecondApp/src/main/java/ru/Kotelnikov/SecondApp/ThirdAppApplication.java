@@ -1,0 +1,13 @@
+package ru.Kotelnikov.SecondApp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = "ru.Kotelnikov.SecondApp")
+public class ThirdAppApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ThirdAppApplication.class, args);
+    }
+}

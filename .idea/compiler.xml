@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for SecondApp" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
+        </processorPath>
+        <module name="SecondApp (1)" />
+        <module name="SecondApp" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MusicAppApplication" />
+        <module name="MeFirstApp" />
+      </profile>
+      <profile name="Annotation profile for MyUiRestDbService2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.40/lombok-1.18.40.jar" />
+        </processorPath>
+        <module name="MyUiRestDbService2" />
+        <module name="MyUiRestDbService" />
+        <module name="MySpringBoot2Dbase" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MeFirstApp" options="-parameters" />
+      <module name="MusicAppApplication" options="-parameters" />
+      <module name="MySpringBoot2Dbase" options="-parameters" />
+      <module name="MyUiRestDbService" options="-parameters" />
+      <module name="MyUiRestDbService2" options="-parameters" />
+      <module name="SecondApp" options="-parameters" />
+      <module name="SecondApp (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
